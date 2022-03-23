@@ -1,0 +1,23 @@
+class checkTest extends org.scalatest.funsuite.AnyFunSuite {
+  test("test1"){
+    assert(testing.num1==8)
+  }
+  test("test2"){
+    assert(testing.num2==7)
+  }
+  test("test3"){
+    assert(testing.num3==3)
+  }
+  test("test4"){
+    assert(testing.num4==0)
+  }
+  test("test5"){
+    assert(testing.num5==8)
+  }
+  test("test6"){
+    assert(testing.num6==2)
+  }
+  test("test7"){
+    assert(testing.num7==1)
+  }
+}
